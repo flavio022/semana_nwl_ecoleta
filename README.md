@@ -35,15 +35,6 @@
   <a href="#-license">License</a>
 </p>
 
-<p id="insomniaButton" align="center">
-  <a
-    href="https://insomnia.rest/run/?label=Ecoleta%20API%20-%20EliasGcf&uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fecoleta%2Fmaster%2FInsomnia.json"
-    target="_blank"
-  >
-    <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
-  </a>
-</p>
-
 <img alt="Layout" src=".github/mockup.png">
 
 ## :recycle: About the project
@@ -151,7 +142,7 @@ $ yarn start
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork EliasGcf/ecoleta
+$ gh repo fork flavio022/semana_nwl_ecoleta
 ```
 
 **Follow the steps below**
