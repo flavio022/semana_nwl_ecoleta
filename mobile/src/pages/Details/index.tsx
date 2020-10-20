@@ -22,6 +22,7 @@ interface Params {
 interface Data {
   point: {
     image: string;
+    image_url: string;
     name: string;
     email: string;
     whatsapp: string;
@@ -43,6 +44,7 @@ const Detais = () => {
   useEffect(() => {
     api.get(`points/${routeParams.point_id}`).then(response => {
       setData(response.data);
+      console.log(response.data);
     });
   });
   console.log(route.params);
@@ -72,7 +74,7 @@ const Detais = () => {
         <Image
           style={styles.pointImage}
           source={{
-            uri: data.point.email
+            uri: data.point.image_url
           }}
         />
         <Text style={styles.pointName}>{data.point.name}</Text>
